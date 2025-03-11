@@ -1,5 +1,5 @@
 <?php
-
+//Crie uma função que gere e retorne um array com 10 números aleatórios.
 function geradornum(){
     $vetor = array();
 
