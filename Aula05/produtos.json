@@ -1,0 +1,19 @@
+{
+    "produtos": [
+        {
+            "produto": "Teclado",
+            "preco" : 150,
+            "estoque" : 20
+        },
+        {
+            "produto" : "Mouse",
+            "preco" : 50,
+            "estoque" : 30
+        },
+        {
+            "produto" : "Monitor",
+            "preco" : 500,
+            "estoque" : 10
+        }
+        ]
+}
