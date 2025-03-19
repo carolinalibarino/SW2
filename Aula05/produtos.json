@@ -1,5 +1,4 @@
-{
-    "produtos": [
+ [
         {
             "produto": "Teclado",
             "preco" : 150,
@@ -15,5 +14,4 @@
             "preco" : 500,
             "estoque" : 10
         }
-        ]
-}
+ ]

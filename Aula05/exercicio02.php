@@ -10,8 +10,14 @@ $content = file_get_contents("usuarios.json");
 $users = json_decode($content, true);
 
 
-echo "$users->nome",
-echo "$users->idade"
+if (is_array($users)) {
+    foreach ($users as $user) {
+        echo "Nome: " . $user['nome'] . "<br>";
+        echo "Email: " . $user['email'] . "<br><br>";
+    }
+} else {
+    echo "Erro ao ler o arquivo JSON.";
+}
 
 
 ?>
